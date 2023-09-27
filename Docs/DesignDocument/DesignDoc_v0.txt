@@ -1,0 +1,7 @@
+Design Document
+
+Title: Beat da 8bit
+
+Type of game: beat'em up, rhythm game, side scroller
+
+Setting: retro cyberpunk, red and 
