@@ -4,24 +4,38 @@ Title: Beat da 8bit
 
 Type of game: beat'em up, rhythm game, side scroller
 
-Setting: retro cyberpunk, pixel art 2D
+#Setting: retro cyberpunk, pixel art 2D
 
-Story
+#Story
 In a futuristic world, for reasons yet unknown, humnas have started developing mind-boggling habilities. This has forced socities to re-adapt: some managed to build better socities... others are ruled by the strongest. 
 Our protagonists are twins, whose parents got killed by the ruler of one of the worst city states in the face of the Earth. Their vengance will take them from the bottom of the bottom all the way to the top, using only their fists.
 
-Gameplay
+#Gameplay
 The core gameplay revolves around the innate special habilities of the twins. One has the hability to produce music just by imagining it. The ultimate music composer! The other, a brawler, has the hability to increase the power of the punches as long as they are syncronised to the rhythm of the music. 
 Each level is one song and has a limited duration. The song builds up to the climax which is the final boss of the stage. Ideally, the player must sustain the combo all the way to the boss so that, by the time you fight it, your punches can deal enough damage to stun it. There are mechanisms to recover, of course, but in the harder difficulties you will have to play flawleslly to have a chance at beating the bosses. 
 The player has the freedom to increase or decrease the BPM of the song, thus introducing a risk-reward mechanic. Higher damage output but it is harder to keep the combo. 
 
-Artstyle
+- The forward movement should be automatic and synced to the beat. When you lunch a punch, the character used that beat to punch and it does not start moving forward until the next. You can combo, thus staying in place.
+- The enemies will come at you like in Taiko no Tatsujin. Each enemy will have an amount of health (number of punches) and pattern (stop, punch, punch // stop, punch, block, punch // stop, stop, unblockable punch // etc.). The easy enemies can be taken down with just one light punch (can we combo them? other wise, there is no freedom for the player to make music.)
+- We can combo enemies past their health, but only up to a limit: limit can be the length of the combo, after which there is one beat of pause. 
+- The length of the combo can be upgraded in the shop.
+- While you fight a dude, the others wait in line (is this fun? does it break the flow?). Obviously, everyone is dancing while they stand, nothing can be still. If the punch exchange is fun, you will not notice them waiting, they have to blend with the background.
+- It is important that the game DOES NOT feel like a Taiko no Tatsujin nor like you are just not moving forward because at every step there is a someone waiting for you. Forwards momentum is very important to keep.
+
+#Artstyle
 Pixel art, retro-cyber-punk, bright colors dominated by reds, purples and yellows. High constrast scenarios that vibe to the beat of the song. Over the top character design.
 
 Kill La Kill visuals. Kororon - Eve.
 
 
-Ideas:
+#Levels
+- Tutorial: present the brothers having a conversation somewhere, a bar maybe? hotdog cart? this serves to present their personalities. They get interrupted by someone. Introduce the concept of normal punch. Then its friend (waaay bigger) stands in front of you. Introduce the concept of strong punch. The guy gets dizzy. Introduce the concept of grab. Hell brakes lose, first level starts. (When to introduce block? will there be a parry?)
+- First level: slums, outdoors, transitions are hidden by entering into a "tunnel" of sorts (the characters hide behind black, the camera continues moving forward until they emerge back into the open). At some point, the characters do not emerge, so the camera comically (maybe with scratch sound effect?) moves backwards and we find the characters pushing down the (4th) wall so that we can see what happens inside the corridor. Turns out, it was full of enemies (reference to Oldboy). 
+
+
+#Ideas:
+- The combo meter can either by used only in L3+R3 mode (the music sheet on the bottom catches in flames, like guitar hero, and your punches make more damage, duration is proportional to combo meter, which is drained). Or your combo can increase your damage output every "N" notes (in this case, the enemies have to increase health steadily as each level progresses). In the second case, we can also unlock the L3+R3 mode every "M" notes in the combo and last for a fixed amount of time (to use with big guys, mini bosses and the boss). Second option sounds better but it requires a mechanism to limit the player from farming combo and not moving forward.
+- There are 7 badies introduced from the beginning of the game as the people to beat. BUT! There is an eight! plot twist after defeating the not-final boss. Throw some crumbles on the way so that is not a Deus Ex Machina... Or not, embrace it.
 - A level at a casino or fancy bar with Big Band music and the punches sound like the Batman TV show of 1966.
 - Let the player customise the sounds of each hit (normal and strong punches, kicks, grabs...). The idea is to allow them to make music
 - At least a level has to have music DOOM-like in the sense that it makes the player want to punch things.
@@ -30,3 +44,5 @@ Ideas:
 - Start the game in normal difficulty: songs are infinite (no time constrain). In harder difficulties songs have a maximum length but have to be able to adapt if the player is faster.
 - Have a level on top of a train and the whole train is vibing to the tunes.
 - Feeling the "and": https://youtu.be/_uMNrujMdJU
+- Does music have a speed limit? harmony is processed linked to the breathing, rhythm to the locomotive system, the notes to the typing speed. Whereas microrhythm goes to the subtle changes in tempo (5-50ms), like when someone speaks, the cadence of spoken words. 
+- Community levels / songs
